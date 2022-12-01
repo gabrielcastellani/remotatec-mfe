@@ -1,0 +1,24 @@
+.bridge-form .card {
+    min-width: 450px;
+}
+
+.bridge-form .card form {
+    margin-top: 2rem;
+}
+
+.bridge-form .card .field {
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+    .bridge-form .card {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .bridge-form .card {
+        width: 100%;
+        min-width: 0;
+    }
+}
